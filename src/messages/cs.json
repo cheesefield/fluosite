@@ -1,0 +1,67 @@
+{
+  "Metadata": {
+    "homepage": {
+      "title": "FluoSite - Vaše brána k výjimečnému webovému designu",
+      "default": "FluoSite",
+      "description": "Ve společnosti FluoSite se specializujeme na vytváření ohromujících, uživatelsky přívětivých webových stránek, které přetvářejí návštěvníky na loajální zákazníky. Naše služby zahrnují od zakázkového webového designu a e-commerce řešení až po optimalizaci SEO. Naplánujte si bezplatnou konzultaci ještě dnes a nechte nás pomoci vám zvýšit vaši online firmu!"
+    },
+    "404Page": {
+      "title": "Error 404 - Stránka nebyla nalezena",
+      "description": "Požadovaná stránka nebyla na tomto serveru nalezena."
+    }
+  },
+  "404Page": {
+    "title": "Chyba 404",
+    "oopsMessage": "Omlouváme se! Stránka nebyla nalezena.",
+    "description": "Stránka, kterou hledáte, neexistuje.",
+    "buttonText": "Vrátit se domů",
+    "imageAlt": "Nenalezeno"
+  },
+  "HomePage": {
+    "heroTitle": "Posilte své online podnikání s FluoSite",
+    "heroDescription": "Vytváříme webové stránky, které promění návštěvníky v loajální zákazníky.",
+    "consultationButton": "Návrh webu zdarma",
+    "whyChooseUsSpan": "Profesionální webová řešení",
+    "whyChooseUsTitle": "Proč zvolit FluoSite?",
+    "expertise": "Okamžitě zaujměte",
+    "expertiseDescription": "Naše designy upoutají pozornost od okamžiku, kdy návštěvníci přistanou na vašem webu, a zajistí, že vaše podnikání vynikne a zanechá trvalý dojem.",
+    "customization": "Prezentujte svou jedinečnost",
+    "customizationDescription": "Každý web, který vytváříme, je přizpůsobený a jedinečný, zdůrazňuje, co vás odlišuje od konkurence.",
+    "globalConnection": "Spojte se globálně",
+    "globalConnectionDescription": "Navrhujeme vícejazyčné webové stránky, které vám pomohou oslovit mezinárodní zákazníky a rozšířit globální dosah vašeho podnikání.",
+    "results": "Přinášíme zákazníky",
+    "resultsDescription": "Naše slib je jednoduchý—váš web přinese skutečné výsledky, přitahující zákazníky, které potřebujete k úspěchu.",
+    "portfolioSpan": "Vytvořeno s láskou",
+    "portfolioTitle": "Naše portfólio",
+    "oilTarator": "OilTarator",
+    "oilTaratorDescription": "Prezentační webová stránka pro ropnou společnost v Ostravě.",
+    "processSpan": "Jak pracujeme",
+    "processTitle": "Náš proces",
+    "step1": "1. Konzultace",
+    "step1Description": "Začneme bezplatnou konzultací, kde probereme vaše cíle a potřeby.",
+    "step2": "2. Návrh",
+    "step2Description": "Vytvoříme přizpůsobený návrh založený na vašich požadavcích.",
+    "step3": "3. Vývoj",
+    "step3Description": "Náš tým převede návrh do plně funkčního webu.",
+    "step4": "4. Testování",
+    "step4Description": "Důkladně testujeme všechny funkce, aby váš web fungoval hladce.",
+    "step5": "5. Spuštění",
+    "step5Description": "Zajistíme hladké spuštění vašeho webu.",
+    "step6": "6. Podpora",
+    "step6Description": "Poskytujeme průběžnou podporu pro zajištění dlouhodobého úspěchu.",
+    "consultationReady": "Připraveni začít?",
+    "freeDesign": "Bezplatná konzultace webového designu",
+    "consultationContact": "Kontaktujte nás dnes pro bezplatnou konzultaci a proberme váš projekt!"
+  },
+  "navbar": {
+    "home": "Domů",
+    "portfolio": "Portfolio",
+    "process": "Proces",
+    "freeKickstart": "Naplánovat konzultaci"
+  },
+  "footer": {
+    "copyright": "© {year} FluoSite. Všechna práva vyhrazena.",
+    "phone": "Telefon: {phone}",
+    "email": "E-mail: {email}"
+  }
+}

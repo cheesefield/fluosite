@@ -1,0 +1,68 @@
+{
+  "Metadata": {
+    "homepage": {
+      "title": "FluoSite - Your Gateway to Exceptional Web Design",
+      "default": "FluoSite",
+      "description": "At FluoSite, we specialize in creating stunning, user-friendly websites that transform visitors into loyal customers. Our services range from custom web design and e-commerce solutions to SEO optimization. Schedule a free consultation today and let us help you elevate your online business!"
+    },
+    "404Page": {
+      "title": "Error 404 - Page Not Found",
+      "description": "The requested page could not be found on this server."
+    }
+  },
+  "404Page": {
+    "title": "Error 404",
+    "oopsMessage": "Oops! Page not found.",
+    "description": "The page you are looking for doesn't exist.",
+    "buttonText": "Go Back Home",
+    "imageAlt": "Not Found"
+  },
+  "HomePage": {
+    "heroTitle": "Empower Your Online Business with FluoSite",
+    "heroDescription": "We build websites that convert visitors into loyal customers.",
+    "consultationButton": "Free Website Design",
+    "whyChooseUsSpan": "Professional Web Solutions",
+    "whyChooseUsTitle": "Why Choose FluoSite?",
+    "expertise": "Get Noticed Instantly",
+    "expertiseDescription": "Our designs grab attention from the moment visitors land on your site, making sure your business stands out and leaves a lasting impression.",
+    "customization": "Showcase Your Uniqueness",
+    "customizationDescription": "Every website we build is custom and unique, highlighting what sets your business apart from the competition.",
+    "globalConnection": "Connect Globally",
+    "globalConnectionDescription": "We design multilingual websites that help you reach international customers, expanding your business’s global footprint.",
+    "results": "We Deliver Customers",
+    "resultsDescription": "Our promise is simple—your website will drive real results, bringing in the customers you need to succeed.",
+    "portfolioSpan": "Made with love",
+    "portfolioTitle": "Our Portfolio",
+    "oilTarator": "OilTarator",
+    "oilTaratorDescription": "Presentation website for an oil company in Ostrava.",
+    "processSpan": "How we work",
+    "processTitle": "Our Process",
+    "step1": "1. Consultation",
+    "step1Description": "We start with a free consultation to discuss your goals and needs.",
+    "step2": "2. Design",
+    "step2Description": "We create a custom design based on your requirements.",
+    "step3": "3. Development",
+    "step3Description": "Our team transforms the design into a fully functional website.",
+    "step4": "4. Testing",
+    "step4Description": "We thoroughly test all features to ensure your website runs smoothly.",
+    "step5": "5. Launch",
+    "step5Description": "We ensure a smooth launch of your website.",
+    "step6": "6. Support",
+    "step6Description": "We provide ongoing support to ensure long-term success.",
+    "consultationReady": "Ready to Get Started?",
+    "freeDesign": "Free Website Design Consultation",
+    "consultationContact": "Contact us today for a free consultation and let's discuss your project!"
+  },
+  "navbar": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "process": "Process",
+    "freeKickstart": "Schedule Consultation"
+  },
+
+  "footer": {
+    "copyright": "© {year} FluoSite. All Rights Reserved.",
+    "phone": "Phone: {phone}",
+    "email": "Email: {email}"
+  }
+}
