@@ -44,7 +44,7 @@ const HomePage = ({ params: { locale } }: Props) => {
             rel="noopener noreferrer"
             target="_blank"
           >
-            <Button data-aos="zoom-in" data-aos-delay="800">
+            <Button data-aos="zoom-in" data-aos-delay="800" size={"lg"}>
               <FaBrush />
               {t("consultationButton")}
             </Button>
@@ -124,25 +124,32 @@ const HomePage = ({ params: { locale } }: Props) => {
           </span>
         </h2>
         <div className="max-w-7xl mx-8 xl:mx-auto grid grid-cols-1 xl:grid-cols-2 gap-8">
-          <div
-            className="bg-secondary rounded-lg overflow-hidden shadow-lg"
-            data-aos="fade-up"
-            data-aos-delay="200"
+          <Link
+            href="https://oiltarator.com"
+            rel="noopener noreferrer"
+            target="_blank"
+            className="hover:opacity-50 transition-all ease-in-out delay-150 duration-700"
           >
-            <Image
-              src={oiltarator.src}
-              alt={t("oilTarator")}
-              height={200}
-              width={400}
-              className="w-full h-auto object-cover"
-            />
-            <div className="p-4">
-              <h3 className="text-xl font-bold text-gray-800">
-                {t("oilTarator")}
-              </h3>
-              <p className="text-gray-800">{t("oilTaratorDescription")}</p>
+            <div
+              className="bg-secondary rounded-lg overflow-hidden shadow-lg"
+              data-aos="fade-up"
+              data-aos-delay="200"
+            >
+              <Image
+                src={oiltarator.src}
+                alt={t("oilTarator")}
+                height={200}
+                width={400}
+                className="w-full h-auto object-cover"
+              />
+              <div className="p-4">
+                <h3 className="text-xl font-bold text-gray-800">
+                  {t("oilTarator")}
+                </h3>
+                <p className="text-gray-800">{t("oilTaratorDescription")}</p>
+              </div>
             </div>
-          </div>
+          </Link>
         </div>
       </section>
       {/* Process Section */}

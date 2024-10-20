@@ -7,6 +7,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
   useEffect(() => {
     AOS.init({
       duration: 1200, // Customize as per your needs
+      once: true,
     });
     return () => {
       AOS.refresh(); // Ensures AOS is refreshed on route changes
