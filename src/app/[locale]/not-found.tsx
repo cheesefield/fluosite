@@ -22,7 +22,7 @@ export default function NotFound() {
   const t = useTranslations("404Page");
 
   return (
-    <div className="flex flex-col items-center justify-center h-[calc(100vh-66.4px-112px)] md:h-[calc(100vh-72px-112px)] bg-gray-100">
+    <div className="flex flex-col items-center justify-center h-[calc(100vh-112px)] bg-gray-100">
       <h1 className="text-6xl font-bold text-gray-800">{t("title")}</h1>
       <p className="mt-4 text-xl text-gray-600">{t("oopsMessage")}</p>
       <p className="mt-2 text-lg text-gray-500">{t("description")}</p>
@@ -40,6 +40,7 @@ export default function NotFound() {
           height={256}
           alt={t("imageAlt")}
           className="w-64 h-auto"
+          priority={true}
         />
       </div>
     </div>

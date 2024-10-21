@@ -35,9 +35,9 @@ export async function generateMetadata({
   const t = await getTranslations({ locale, namespace: "Metadata" });
 
   return {
-    title: t("homepage.title"),
+    title: t("404Page.title"),
     default: "FluoSite",
-    description: t("homepage.description"),
+    description: t("404Page.description"),
     metadataBase: new URL("https://fluosite.com"),
     alternates: {
       canonical: `/${locale}`,
@@ -47,8 +47,8 @@ export async function generateMetadata({
       },
     },
     openGraph: {
-      title: t("homepage.title"),
-      description: t("homepage.description"),
+      title: t("404Page.title"),
+      description: t("404Page.description"),
       images: "/opengraph-image.png",
     },
   };

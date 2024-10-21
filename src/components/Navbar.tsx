@@ -31,7 +31,13 @@ const Navbar = () => {
           offset={-navbarHeight} // Adjust for navbar height
           className="text-white hover:text-primary transition ease-in-out delay-150 cursor-pointer"
         >
-          <Image src={logo.src} width={100} height={100} alt="FluoSite Logo" />
+          <Image
+            src={logo.src}
+            width={100}
+            height={100}
+            priority={true}
+            alt="FluoSite Logo"
+          />
         </ScrollLink>
         <div className="flex items-center">
           <ul className="hidden md:flex space-x-4 items-center">

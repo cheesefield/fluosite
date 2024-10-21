@@ -9,11 +9,37 @@ import Image from "next/image";
 import oiltarator from "@/images/oiltarator.png";
 import { FaBrush, FaEye, FaStar, FaGlobe, FaDollarSign } from "react-icons/fa";
 import { Button } from "@/components/ui/button";
-import { unstable_setRequestLocale } from "next-intl/server";
+import { getTranslations, unstable_setRequestLocale } from "next-intl/server";
 
 type Props = {
   params: { locale: string };
 };
+
+export async function generateMetadata({
+  params: { locale },
+}: Omit<Props, "children">) {
+  unstable_setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: "Metadata" });
+
+  return {
+    title: t("homepage.title"),
+    default: "FluoSite",
+    description: t("homepage.description"),
+    metadataBase: new URL("https://fluosite.com"),
+    alternates: {
+      canonical: `/${locale}`,
+      languages: {
+        en: "/en",
+        cs: "/cs",
+      },
+    },
+    openGraph: {
+      title: t("homepage.title"),
+      description: t("homepage.description"),
+      images: "/opengraph-image.png",
+    },
+  };
+}
 
 const HomePage = ({ params: { locale } }: Props) => {
   unstable_setRequestLocale(locale);
@@ -230,7 +256,7 @@ const HomePage = ({ params: { locale } }: Props) => {
             {t("consultationContact")}
           </p>
           <div
-            className="calendly-inline-widget mx-auto bg-gray-900 rounded-lg overflow-hidden"
+            className="calendly-inline-widget mx-auto bg-background rounded-lg overflow-hidden"
             style={{
               position: "relative",
               height: "800px",
@@ -239,9 +265,10 @@ const HomePage = ({ params: { locale } }: Props) => {
           >
             <iframe
               src="https://calendly.com/fluosite/30min?hide_gdpr_banner=1"
-              width="100%"
+              width="90%"
               height="100%"
               title="Consultation Booking"
+              className="max-w-7xl mx-8 xl:mx-auto"
             />
           </div>
         </div>
