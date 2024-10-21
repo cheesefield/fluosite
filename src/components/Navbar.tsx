@@ -15,14 +15,14 @@ const Navbar = () => {
   const t = useTranslations("navbar"); // Use the useTranslations hook
   const [isOpen, setIsOpen] = useState(false);
   const navbarHeight = 72; // Set this to your navbar's height in pixels
-  const navbarHeightPhone = 255; // Set this to your navbar's height in pixels
+  const navbarHeightPhone = 64.8; // Set this to your navbar's height in pixels
 
   const toggleMenu = () => {
     setIsOpen(!isOpen);
   };
 
   return (
-    <nav className="bg-gray-800 p-4 transition duration-150 z-20 sticky top-0">
+    <nav className="bg-gray-800 p-4 transition duration-150 z-20 fixed w-full top-0">
       <div className="container mx-auto flex justify-between items-center">
         <ScrollLink
           to="home"
